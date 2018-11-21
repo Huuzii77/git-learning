@@ -4,10 +4,10 @@
 mkdir SpringBootInAction
 cd SpringBootInAction
 git init
-##将当前目录下的所有文件添加到git仓库
+将当前目录下的所有文件添加到git仓库
 git add .
 git commit -m "first commit"
-##首先要建好一个远端仓库(URL),如https://xxx/SpringBootInAction.git
+首先要建好一个远端仓库(URL),如https://xxx/SpringBootInAction.git
 git remote add origin https://xxx/SpringBootInAction.git
 git push -u -f origin master
 ```
