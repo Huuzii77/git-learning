@@ -17,6 +17,7 @@
   */
  public class OptionalTest3 {
      public static void main(String[] args) {
+         //test
          User user = new User("chen",18,9000);
          Optional<User> optional = Optional.ofNullable(user);
          Optional<String> str = optional.map(User::getName);
